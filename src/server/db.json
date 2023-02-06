@@ -1,0 +1,74 @@
+{
+  "cities": [
+    {
+      "id": 1,
+      "region": "Leanne Graham",
+      "city": "Bret",
+      "description": "Sincere@april.biz",
+      "image": "../assets/Vetka.jpg"
+    },
+    {
+      "id": 2,
+      "region": "Leanne Graham",
+      "city": "Bret",
+      "description": "Sincere@april.biz",
+      "image": "../assets/Vetka.jpg"
+    },
+    {
+      "id": 3,
+      "region": "Leanne Graham",
+      "city": "Bret",
+      "description": "Sincere@april.biz",
+      "image": "../assets/Vetka.jpg"
+    },
+    {
+      "id": 4,
+      "region": "Leanne Graham",
+      "city": "Bret",
+      "description": "Sincere@april.biz",
+      "image": "../assets/Vetka.jpg"
+    },
+    {
+      "id": 5,
+      "region": "Leanne Graham",
+      "city": "Bret",
+      "description": "Sincere@april.biz",
+      "image": "../assets/Vetka.jpg"
+    },
+    {
+      "id": 6,
+      "region": "Leanne Graham",
+      "city": "Bret",
+      "description": "Sincere@april.biz",
+      "image": "../assets/Vetka.jpg"
+    },
+    {
+      "id": 7,
+      "region": "Leanne Graham",
+      "city": "Bret",
+      "description": "Sincere@april.biz",
+      "image": "../assets/Vetka.jpg"
+    },
+    {
+      "id": 8,
+      "region": "Leanne Graham",
+      "city": "Bret",
+      "description": "Sincere@april.biz",
+      "image": "../assets/Vetka.jpg"
+    },
+    {
+      "id": 9,
+      "region": "Leanne Graham",
+      "city": "Bret",
+      "description": "Sincere@april.biz",
+      "image": "../assets/Vetka.jpg"
+    },
+    {
+      "id": 10,
+      "region": "Leanne Graham",
+      "city": "Bret",
+      "description": "Sincere@april.biz",
+      "image": "../assets/Vetka.jpg"
+    }
+  ]
+}
