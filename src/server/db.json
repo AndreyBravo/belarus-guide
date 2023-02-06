@@ -2,73 +2,73 @@
   "cities": [
     {
       "id": 1,
-      "region": "Leanne Graham",
-      "city": "Bret",
-      "description": "Sincere@april.biz",
-      "image": "../assets/Vetka.jpg"
+      "region": "Гомельская",
+      "city": "Ветка",
+      "description": "Что посмотреть в Ветке: тайны города старообрядцев, артефакты крупнейшего иконописного центра страны и неповторимый народный колорит Полесья",
+      "image": "./assets/Vetka.jpg"
     },
     {
       "id": 2,
-      "region": "Leanne Graham",
-      "city": "Bret",
-      "description": "Sincere@april.biz",
-      "image": "../assets/Vetka.jpg"
+      "region": "Могилевская",
+      "city": "Бобруйск",
+      "description": "Что посмотреть в Бобруйске: декабристская цитадель и неповторимый шарм еврейской столицы Беларуси",
+      "image": "./assets/bobrysk.jpg"
     },
     {
       "id": 3,
-      "region": "Leanne Graham",
-      "city": "Bret",
-      "description": "Sincere@april.biz",
-      "image": "../assets/Vetka.jpg"
+      "region": "Гомельская",
+      "city": "Речица",
+      "description": "Что посмотреть в Речице: часовня из металла на набережной Днепра, музей нефти и картины самого загадочного художника Беларуси",
+      "image": "./assets/re4isa.jpg"
     },
     {
       "id": 4,
-      "region": "Leanne Graham",
-      "city": "Bret",
-      "description": "Sincere@april.biz",
-      "image": "../assets/Vetka.jpg"
+      "region": "Гомельская",
+      "city": "Мозырь",
+      "description": "Что посмотреть в Мозыре: улицы в оврагах, храм-музей и уникальный трамвай",
+      "image": "./assets/mozor6.jpg"
     },
     {
       "id": 5,
-      "region": "Leanne Graham",
-      "city": "Bret",
-      "description": "Sincere@april.biz",
-      "image": "../assets/Vetka.jpg"
+      "region": "Витебская",
+      "city": "Браславль",
+      "description": "Что посмотреть в Браславе: мозаичный костел, Владычица озер, архитектура родом из Татр и фестиваль на пляже",
+      "image": "./assets/braslavl.jpg"
     },
     {
       "id": 6,
-      "region": "Leanne Graham",
-      "city": "Bret",
-      "description": "Sincere@april.biz",
-      "image": "../assets/Vetka.jpg"
+      "region": "Гродненская",
+      "city": "Новогрудок",
+      "description": "Что посмотреть в Новогрудке: сокровища первой столицы Великого княжества Литовского и родины Адама Мицкевича",
+      "image": "./assets/novogrudok.jpg"
     },
     {
       "id": 7,
-      "region": "Leanne Graham",
-      "city": "Bret",
-      "description": "Sincere@april.biz",
-      "image": "../assets/Vetka.jpg"
+      "region": "Витебская",
+      "city": "Полоцк",
+      "description": "Что посмотреть в Полоцке: величественная София, сокровища святой Евфросинии, наследие первопечатника Скорины и другие достопримечательности самого древнего города Беларуси",
+      "image": "./assets/polock.jpg"
     },
     {
       "id": 8,
-      "region": "Leanne Graham",
-      "city": "Bret",
-      "description": "Sincere@april.biz",
-      "image": "../assets/Vetka.jpg"
+      "region": "Гродненская",
+      "city": "Щучин",
+      "description": "Что посмотреть в Щучине: коллегиум пиаров, Биг-Бен и памятник Тётке",
+      "image": "./assets/shytin.jpg"
     },
     {
       "id": 9,
-      "region": "Leanne Graham",
-      "city": "Bret",
-      "description": "Sincere@april.biz",
-      "image": "../assets/Vetka.jpg"
+      "region": "Витебская",
+      "city": "Орша",
+      "description": "Что посмотреть в Орше: город монастырей, коллегиум-тюрьма и дом Короткевича",
+      "image": "./assets/orsha.jpg"
     },
     {
       "id": 10,
-      "region": "Leanne Graham",
-      "city": "Bret",
-      "description": "Sincere@april.biz",
-      "image": "../assets/Vetka.jpg"
+      "region": "Бресткая",
+      "city": "Пинск",
+      "description": "Что посмотреть в Пинске: знаменитый коллегиум, самый старый орган и другие достопримечательности столицы Полесья",
+      "image": "./assets/pinsk.jpg"
     }
   ]
 }

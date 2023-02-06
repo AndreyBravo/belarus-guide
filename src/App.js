@@ -10,21 +10,7 @@ import Main from "./Main";
 
 function App() {
 
-  const [users,setUsers] = useState([]);
-  useEffect(()=>{
-    fetchData();
-  },[])
-
-  const fetchData = async () => {
-    await fetch('http://localhost:3001/cities')
-    .then((res) => res.json())
-    .then((data) => setUsers(data))
-    .catch((err) => {
-      console.log(err);
-    })
-  }
-
-  console.log(users);
+  
   return (
     <>
       <BNavbar />
