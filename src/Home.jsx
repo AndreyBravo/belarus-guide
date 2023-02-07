@@ -3,12 +3,16 @@ import React, { useEffect, useState } from "react";
 import { Col, Container, Row, Card, Button, Form } from "react-bootstrap";
 
 function Home() {
+  const sortArray = ["region", "city"];
+
   const [cities, setCities] = useState([]);
   const [search, setSearch] = useState("");
-
-  useEffect(() => {
-    fetchData();
-  }, []);
+  const [sort, setSort] = useState(() => {
+    const saved = localStorage.getItem("sorted");
+    let initialValue = JSON.parse(saved);
+    if (initialValue === "Выбирите из меню") initialValue = "";
+    return initialValue || "";
+  });
 
   const fetchData = async () => {
     await fetch("http://localhost:3001/cities")
@@ -18,6 +22,14 @@ function Home() {
         console.log(err);
       });
   };
+
+  useEffect(() => {
+    fetchData();
+  }, []);
+
+  useEffect(() => {
+    localStorage.setItem("sorted", JSON.stringify(sort));
+  }, [sort]);
 
   const listItems = cities.map((city) => (
     <Col key={city.id} style={{ marginTop: "20px" }}>
@@ -32,10 +44,29 @@ function Home() {
     </Col>
   ));
 
+  const sortItems = sortArray.map((item, index) => (
+    <option value={item} key={index}>
+      {item}
+    </option>
+  ));
+
   const onSearch = async (e) => {
     const val = e.target.value;
     setSearch(val);
     await fetch(`http://localhost:3001/cities?city_like=${val}`)
+      .then((res) => res.json())
+      .then((data) => {
+        setCities(data);
+      })
+      .catch((err) => {
+        console.log(err);
+      });
+  };
+
+  const onSort = async (e) => {
+    const val = e.target.value;
+    setSort(val);
+    await fetch(`http://localhost:3001/cities?_sort=${val}`)
       .then((res) => res.json())
       .then((data) => {
         setCities(data);
@@ -56,7 +87,18 @@ function Home() {
             placeholder="Поиск..."
           />
         </Form.Group>
-        <Row>{listItems}</Row>
+        <Form.Label>Сортировка</Form.Label>
+        <Form.Select onChange={onSort} value={sort}>
+          <option>Выбирите из меню</option>
+          {sortItems}
+        </Form.Select>
+        {cities.length === 0 ? (
+          <Row>
+            <h2>Нет элементов</h2>
+          </Row>
+        ) : (
+          <Row>{listItems}</Row>
+        )}
       </Container>
     </>
   );
