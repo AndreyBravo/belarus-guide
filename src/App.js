@@ -11,8 +11,6 @@ import Main from "./Main";
 import NotFounded from "./NotFounded";
 
 function App() {
-
-  
   return (
     <>
       <BNavbar />
