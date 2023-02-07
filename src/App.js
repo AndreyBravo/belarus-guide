@@ -8,6 +8,7 @@ import BNavbar from "./components/BNavbar";
 import Home from "./Home";
 import IdHome from "./IdHome";
 import Main from "./Main";
+import NotFounded from "./NotFounded";
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
         <Route path="/home" element={<Home />} />
         <Route path="/home/:id" element={<IdHome />} />
         <Route path="/about" element={<About />} />
+        <Route path="*" element={<NotFounded />} />
       </Routes>
     </>
   );
