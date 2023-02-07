@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 
 import { Col, Container, Row, Card, Button, Form } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 function Home() {
   const sortArray = ["region", "city"];
@@ -38,7 +39,7 @@ function Home() {
         <Card.Body>
           <Card.Title>{city.city}</Card.Title>
           <Card.Text>{city.description}</Card.Text>
-          <Button variant="primary">Подробнее</Button>
+          <Link to={`/home/${city.id}`}>Подробнее</Link>
         </Card.Body>
       </Card>
     </Col>
