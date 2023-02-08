@@ -8,7 +8,7 @@ import BNavbar from "./components/BNavbar";
 import Home from "./pages/Home";
 import IdHome from "./pages/IdHome";
 import Main from "./pages/Main";
-import NotFounded from "./NotFounded";
+import NotFounded from "./pages/NotFounded";
 
 function App() {
   return (
