@@ -3,11 +3,11 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import React, { useEffect, useState } from "react";
 import { Route, Routes } from "react-router-dom";
 
-import About from "./About";
+import About from "./pages/About";
 import BNavbar from "./components/BNavbar";
-import Home from "./Home";
-import IdHome from "./IdHome";
-import Main from "./Main";
+import Home from "./pages/Home";
+import IdHome from "./pages/IdHome";
+import Main from "./pages/Main";
 import NotFounded from "./NotFounded";
 
 function App() {
