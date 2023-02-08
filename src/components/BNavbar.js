@@ -20,9 +20,9 @@ function BNavbar() {
             <Nav.Link as={Link} to="/home">
               Главное
             </Nav.Link>
-            {/* <Nav.Link as={Link} to="/about">
-              Актуальное
-            </Nav.Link> */}
+            <Nav.Link as={Link} to="/about">
+              События
+            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
